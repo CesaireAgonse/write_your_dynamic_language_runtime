@@ -1,0 +1,38 @@
+Slide 1: Introduction
+
+Titre : "Node.js vs Deno: Comparaison des plateformes JavaScript côté serveur"
+Brève introduction sur l'importance des plateformes JavaScript côté serveur dans le développement web moderne.
+Objectif de la présentation.
+Slide 2: Présentation de Node.js
+
+Titre : "Node.js"
+Historique et origine de Node.js.
+Principales caractéristiques et avantages.
+Exemples d'utilisation et cas d'usage courants.
+Slide 3: Présentation de Deno
+
+Titre : "Deno"
+Historique et origine de Deno, avec une mention de Ryan Dahl.
+Principales caractéristiques et différences par rapport à Node.js.
+Exemples d'utilisation et cas d'usage courants.
+Slide 4: Comparaison des fonctionnalités
+
+Titre : "Comparaison des fonctionnalités"
+Tableau comparatif mettant en évidence les similitudes et les différences entre Node.js et Deno en termes de gestion des dépendances, sécurité, APIs intégrées, performances, etc.
+Inclure des exemples concrets pour illustrer chaque point.
+Slide 5: Gestion des dépendances et sécurité
+
+Titre : "Gestion des dépendances et sécurité"
+Expliquer comment Node.js et Deno gèrent les dépendances et quelles sont les approches en matière de sécurité.
+Mettre en évidence les avantages et les inconvénients de chaque approche.
+Slide 6: Performance et écosystème
+
+Titre : "Performance et écosystème"
+Comparaison des performances de Node.js et Deno en fonction de différents critères (temps de démarrage, temps de chargement des modules, etc.).
+Présentation des écosystèmes respectifs, y compris les gestionnaires de paquets, les frameworks populaires, etc.
+Slide 7: Conclusion
+
+Titre : "Conclusion"
+Récapituler les principaux points de comparaison entre Node.js et Deno.
+Aider le public à comprendre les cas d'utilisation appropriés pour chaque plateforme en fonction des besoins spécifiques du projet.
+Encourager les questions et la discussion.
