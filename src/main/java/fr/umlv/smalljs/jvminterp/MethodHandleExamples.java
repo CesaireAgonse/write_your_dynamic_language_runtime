@@ -13,15 +13,15 @@ public class MethodHandleExamples {
     // a method type, represent the return type and the parameter types of a function
     // By example, a method type that takes a String and returns void
     MethodType mt1 = MethodType.methodType(void.class, String.class);
-    //System.out.println(mt1);  // (String)void
+    System.out.println(mt1);  // (String)void
 
     // and a method type that takes two ints and return a String
     var mt2 = MethodType.methodType(String.class, int.class, int.class);
-    //System.out.println(mt2);  // (int,int)String
+    System.out.println(mt2);  // (int,int)String
 
     // Method has a static factory when only objects are used as parameters and return type
     var mt3 = MethodType.genericMethodType(3);
-    //System.out.println(mt3);  // (Object,Object,Object)Object
+    System.out.println(mt3);  // (Object,Object,Object)Object
 
 
     // a method handle is a function pointer
@@ -42,7 +42,7 @@ public class MethodHandleExamples {
     }
 
     // once created, a method handle as a method type
-    //System.out.println(mh1.type());  // (String)int
+    System.out.println(mh1.type());  // (String)int
 
     // You can notice that the *method* is String::length but the corresponding *function*
     // takes a String and returns an int (String is the type of this)
@@ -61,15 +61,15 @@ public class MethodHandleExamples {
     }
 
     // in that case, the corresponding method type, has no type for 'this'
-    //System.out.println(mh2.type());  // (String)double
+    System.out.println(mh2.type());  // (String)double
 
     // to call the function pointer, we use the method "invokeExact"
     var aLength = (int) mh1.invokeExact("foo");
-    //System.out.println(aLength);  // 3
+    System.out.println(aLength);  // 3
 
     // or
     var aDouble = (double) mh2.invokeExact("2.0");
-    //System.out.println(aDouble);  // 2.0
+    System.out.println(aDouble);  // 2.0
 
     // given that a MethodHandle can represent any functions, invokeExact can call any functions
     // if the argument types are not exactly the same as the parameter types
